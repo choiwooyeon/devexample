@@ -15,7 +15,7 @@ public class FileUtil {
 		try (Stream<String> stream = Files.lines(Paths.get(fileName))) {
 
 			stream.forEach(System.out::println);
-
+			//테스트입니다.
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
