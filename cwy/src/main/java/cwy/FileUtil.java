@@ -15,7 +15,7 @@ public class FileUtil {
 		try (Stream<String> stream = Files.lines(Paths.get(fileName))) {
 
 			stream.forEach(System.out::println);
-
+			//20190123
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
